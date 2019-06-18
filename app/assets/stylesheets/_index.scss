@@ -1,0 +1,26 @@
+.wrapper {
+  background-size: auto;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+  height: 3500px;
+  
+  .top{
+    box-sizing: border-box;
+    height: 70px;
+  }
+
+  .header{
+    box-sizing: border-box;
+    height: 100px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    float: right;
+  }
+
+  .main{
+    box-sizing: border-box;
+    background-size: auto;
+    padding-top: 100px;
+  }
+}

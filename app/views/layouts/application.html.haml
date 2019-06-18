@@ -1,0 +1,38 @@
+!!!
+%html{lang: "ja"}
+  %head
+    %meta{content:"text/html; charset=UTF-8", "http-equiv": "Content-Type"}/
+    %meta{content:"width=device-width, initial-scale=1.0", name: "viewport"}/
+    %title Tenlife
+    = stylesheet_link_tag    'application', media: 'all'
+  .wrapper
+    %body
+      .top
+        .top__text-box
+          .top__text-box-left
+            tenlife
+          .top__text-box-right
+            by tenra
+      .header
+        .header__left
+          %h1
+            = link_to "/home/index", class: "hm" do
+              home
+          %h1
+            = link_to "/ski/index", class: "sk" do
+              ski
+          %h1
+            = link_to "/program/index", class: "pr" do
+              programing
+          %h1
+            = link_to "/life/index", class: "lf" do
+              life
+          %h1
+            = link_to "/profile/index", class: "fi" do
+              profile
+        .header__right
+
+
+
+
+    = yield

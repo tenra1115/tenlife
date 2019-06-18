@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+
+.me__bottom-right{
+  border-radius: 10px;
+  background-color: tan;
+  width: 300px;
+  float: right;
+  height: 600px;
+  margin-right: 150px;
+  margin-top: 50px;
+
+  .main__bottom-right__me{
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 80%;
+    height: 200px;
+    background-color: aqua;
+    // background-image: url("12 FJWC19_KAPPL_KLISTL.jpg");
+    // background-size: cover;
+
+    .main__bottom-right__photo-me{
+      text-align: center;
+      line-height: 200px;
+    }
+  }
+
+  .main__bottom-right__me-name{
+    margin-left: 30px;
+    width: 80%;
+    height: 80px;
+    text-align: center;
+  }
+
+  .main__bottom-right__bow{
+    margin-left: 30px;
+    width: 80%;
+    height: auto;
+    text-align: center;
+
+    p{
+      margin: 10px;
+    }
+  }
+
+  .main__bottom-right__box-me{
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 80%;
+    height: 200px;
+
+    .top{
+      margin: 0 20px;
+
+      .insta{
+        float: left;
+        padding-left: 10px;
+      }
+
+      .facebook{
+        padding-right: 10px;
+        float: right;
+      }
+    }
+
+    .bottom{
+      margin: 0 20px;
+      height: 100px;
+
+      .youtube{
+        float: left;
+        padding-left: 10px;
+      }
+
+      .twitter{
+        padding-right: 10px;
+        float: right;
+      }
+    }
+  }
+}
