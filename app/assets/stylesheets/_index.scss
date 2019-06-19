@@ -6,17 +6,34 @@
   .pop{
     box-sizing: border-box;
     height: 50px;
-    padding-top: 70px;
+    padding-top: 50px;
+
+    h1{
+      font-size: 40px;
+      letter-spacing: 9px;
+      margin-left: 200px;
+      font-family: Roboto;
+    }
   }
 
   .header{
     box-sizing: border-box;
-    height: 100px;
-    background-color: black;
-    width: 100%;
+    height: auto;
+    // background-color: black;
+    // background-image: url("");
+    // width: 100%;
     color: white;
     float: right;
     margin-top: 10px; 
+    margin-bottom: 10px;
+
+    img{
+      // background-size: cover;
+      object-fit: cover;
+      zoom: 50%;
+      width: 3000px;
+      height: 800px;
+    }
   }
 
   .main{
