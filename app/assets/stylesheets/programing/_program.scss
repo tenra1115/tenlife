@@ -3,19 +3,19 @@
   width: calc(100% - 35%);
   margin: 40px 40px;
   height: 400px;
-  background-color: rgb(192, 113, 17);
+  // background-color: rgb(192, 113, 17);
 
-  h2{
-    font-size: 70px;
-    text-align: center;
-    line-height: 200px;
-    float: left;
+  img{
+    width: calc(100% - 250px);
+    height: 100%;
   }
 
   p{
     font-size: 30px;
+    float: right;
     text-align: center;
     padding-top: 80px;
+    padding-right: 50px;
   }
 }
 
@@ -24,10 +24,11 @@
   background-color: azure;
   width: calc(100% - 75%);
   margin-left: 1000px;
-  margin-top: 220px;
+  margin-top: 250px;
 
   .show__skilll{
     padding-top: 30px;
+    margin-top: 600px;
 
     h2{
       text-align: center;
@@ -64,13 +65,13 @@
       float: left;
       margin-top: 50px;
       margin-left: 40px;
-      background-color: darkcyan;
+      // background-color: darkcyan;
       width: calc(100% - 60%);
       min-height: 200px;
       height: auto;
 
-      p{
-        font-size:20px;
+      h1{
+        font-size:  60px;
         width: 90%;
         text-align: center;
         margin: 5px 7px;
@@ -106,15 +107,10 @@
       background-color: darkcyan;
       float: right;
       margin-right: 40px;
+      margin-bottom: 100px;
 
-      p{
-        font-size:20px;
-        width: 90%;
-        text-align: center;
-        margin: 5px 7px;
-        word-break:break-all;
-        min-height: 200px;
-        height: auto;
+      img{
+        width: 100%;
 
       }
 

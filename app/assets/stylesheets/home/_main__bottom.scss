@@ -58,23 +58,29 @@
       }
 
       .main__bottom-left__news__middle{
-        margin-top: 50px;
         width: calc(100% - 40px);
         height: 500px;
-        background-color: rosybrown;
+        // background-color: rosybrown;
 
         &__text{
+          margin-top: calc(20% - 40px);
           float: left;
-          width: calc(100% - 50%);
-          background-color: violet;
+          width: calc(100% - 70%);
+          // background-color: violet;
           text-align: center;
         }
 
-        &__photo{
+        .main__bottom-left__news__middle__photo{
           float: right;
-          width: calc(100% - 50%);
-          background-color: lawngreen;
+          width: calc(100% - 35%);
+          // background-color: lawngreen;
           text-align: center;
+
+          img{
+            width: 100%;
+          }
+
+
         }
       }
 
