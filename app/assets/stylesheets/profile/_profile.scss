@@ -1,87 +1,167 @@
+.me{
+  padding-top: 500px;
+  box-sizing: border-box;
+  height: auto;
 
+  .me-top{
+    // background-color: aqua;
+    height: 500px;
+    margin-bottom: 50px;
 
-
-
-
-
-
-
-
-.me__bottom-right{
-  border-radius: 10px;
-  width: 300px;
-  float: right;
-  height: 600px;
-  margin-right: 150px;
-  margin-top: 50px;
-
-  .main__bottom-right__me{
-    margin-left: 30px;
-    margin-top: 50px;
-    width: 80%;
-    height: 200px;
-    background-color: aqua;
-    // background-image: url("12 FJWC19_KAPPL_KLISTL.jpg");
-    // background-size: cover;
-
-    .main__bottom-right__photo-me{
+    h1{
       text-align: center;
-      line-height: 200px;
+      font-size: 40px;
+      margin-top: 80px;
+    }
+
+    .me-top-left{
+      // background-color: olive;
+      float: left;
+      // padding-left: 300px;
+      // padding-top: 500px; 
+
+      margin-left: 150px;
+      margin-top: 100px; 
+
+      .face-image{
+        // padding: 20px;
+        
+        img{
+          width: 40%;
+          border-radius: 100px;
+        }
+
+        .kill-list{
+          float: right;
+          width: calc(100% - 55%);
+          box-sizing: border-box;
+          padding-top: 50px;
+
+          p{
+            margin-bottom: 35px;
+            font-size: 20px;
+
+          }
+        }
+
+        .work-list{
+          float: right;
+          margin-right: 40px;
+          padding-top: 50px;
+
+          p{
+            margin-bottom: 40px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .me-top-right{
+      box-sizing: border-box;
+      padding-right: 300px;
+      height: 300px;
+      background-color: antiquewhite;
+      float: right;
+      width: calc(100% - 1000px);
+      margin-right: 600px;
+      margin-top: 100px;
+    
+
+      .me-list{
+
+      }
+
     }
   }
 
-  .main__bottom-right__me-name{
-    margin-left: 30px;
-    width: 80%;
-    height: 80px;
-    text-align: center;
-  }
-
-  .main__bottom-right__bow{
-    margin-left: 30px;
-    width: 80%;
-    height: auto;
-    text-align: center;
-
-    p{
-      margin: 10px;
-    }
-  }
-
-  .main__bottom-right__box-me{
-    margin-left: 30px;
-    margin-top: 50px;
-    width: 80%;
-    height: 200px;
-
-    .topp{
-      margin: 0 20px;
-
-
-      .insta{
-        float: left;
-        padding-left: 10px;
-      }
-
-      .facebook{
-        padding-right: 10px;
-        float: right;
-      }
-    }
-
-    .bottom{
-      margin: 0 20px;
-      height: 100px;
-
-      .youtube{
-        float: left;
-        padding-left: 10px;
-      }
-
-      .twitter{
-        padding-right: 10px;
-        float: right;
-      }
-    }
+  .me-down{
+    height: calc(100% - 100px);
+    width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+// .me__bottom-right{
+//   border-radius: 10px;
+//   width: 300px;
+//   float: right;
+//   height: 600px;
+//   margin-right: 150px;
+//   margin-top: 50px;
+
+//   .main__bottom-right__me{
+//     margin-left: 30px;
+//     margin-top: 50px;
+//     width: 80%;
+//     height: 200px;
+//     background-color: aqua;
+//     // background-image: url("12 FJWC19_KAPPL_KLISTL.jpg");
+//     // background-size: cover;
+
+//     .main__bottom-right__photo-me{
+//       text-align: center;
+//       line-height: 200px;
+//     }
+//   }
+
+//   .main__bottom-right__me-name{
+//     margin-left: 30px;
+//     width: 80%;
+//     height: 80px;
+//     text-align: center;
+//   }
+
+//   .main__bottom-right__bow{
+//     margin-left: 30px;
+//     width: 80%;
+//     height: auto;
+//     text-align: center;
+
+//     p{
+//       margin: 10px;
+//     }
+//   }
+
+//   .main__bottom-right__box-me{
+//     margin-left: 30px;
+//     margin-top: 50px;
+//     width: 80%;
+//     height: 200px;
+
+//     .topp{
+//       margin: 0 20px;
+
+
+//       .insta{
+//         float: left;
+//         padding-left: 10px;
+//       }
+
+//       .facebook{
+//         padding-right: 10px;
+//         float: right;
+//       }
+//     }
+
+//     .bottom{
+//       margin: 0 20px;
+//       height: 100px;
+
+//       .youtube{
+//         float: left;
+//         padding-left: 10px;
+//       }
+
+//       .twitter{
+//         padding-right: 10px;
+//         float: right;
+//       }
+//     }
+//   }
+// }

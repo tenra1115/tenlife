@@ -4,49 +4,50 @@
   .main__bottom
     .main__bottom-left
       .main__bottom-left__news
-        topic
+        Home
       .main__bottom-left__news__box
         .main__bottom-left__news__top
           .main__bottom-left__news__top__left
             = image_tag ("IMG_8286.PNG");
           .main__bottom-left__news__top__right
-            %p 日本人として初めての出場となる大会で3位入賞した時のもの
+            %p 国内外のスキーの大会に出場したりしています
+            %p スキーが大好きです
         .main__bottom-left__news__middle
           .main__bottom-left__news__middle__text
             %p プログラミングでウェブサービスを開発しています
           .main__bottom-left__news__middle__photo
             = image_tag ("code-kids2.png");
-        .main__bottom-left__news__last
-          .main__bottom-left__news__last__image
-            写真
-          .main__bottom-left__news__last__sentense
-            文章
+        -# .main__bottom-left__news__last
+        -#   .main__bottom-left__news__last__image
+        -#     写真
+        -#   .main__bottom-left__news__last__sentense
+        -#     文章
     .main__bottom-right
       .main__bottom-right__photo
         .main__bottom-right__photo__image
-          プロフィール写真
+          = image_tag("IMG_0809.JPG");
       .main__bottom-right__name
         %p
           勝野天欄
       .main__bottom-right__me
         %p
-          こんにちわこんばんわこんにちわこんばんわuuuueeeeeeeeeeeeeeee
+          tech-expert 53期生 
+        %p プログラミング修行中
+        %p スキーの方では選手として活動していて、国内外の大会にも出場しています
       .main__bottom-right__box
         .top
           .insta
-            -# =fa_icon "instagram"
-            -# ttt-# = link_to "https://www.instagram.com/tenra_katsuno123/" do
+            = link_to ("https://www.instagram.com/tenra_katsuno123/") do
+              instagram
           .facebook
-            facebook
+            = link_to ("https://www.facebook.com/Tenra-Katsuno-843361695788556/") do
+              facebook
         .bottom 
           .youtube
-            youtube
+            = link_to ("https://www.youtube.com/channel/UCaQ0xGWuItQey6cJ7NVS8jg?view_as=subscriber") do
+              youtube
           .twitter 
             twitter
-
-
-      
-      .main__bottom-right-text
       
 
   
