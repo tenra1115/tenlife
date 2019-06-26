@@ -166,11 +166,13 @@
         .insta{
           float: left;
           padding-left: 10px;
+          font-size: 35px;
         }
 
         .facebook{
           padding-right: 10px;
           float: right;
+          font-size: 35px;
         }
       }
 
@@ -182,11 +184,19 @@
         .youtube{
           float: left;
           padding-left: 10px;
+          font-size: 35px;
+
+          i{
+          color: red;
+          }
         }
 
         .twitter{
           padding-right: 10px;
           float: right;
+          font-size: 35px;
+          color: blue;
+          opacity: 0.6;
         }
       }
     }
