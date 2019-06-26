@@ -64,6 +64,8 @@
       text-align: center;
       list-style: none;
       padding-top: 120px;
+      text-align: left;
+      margin-left: 90px;
 
       h1{
         padding-bottom: 30px;
@@ -104,8 +106,9 @@
       min-height: 200px;
       height: auto;
 
-      p{
+      h1{
         font-size:15px;
+        margin-top: calc(100% - 70%);
         text-align: center;
         word-break:break-all;
 
@@ -115,7 +118,7 @@
 
     .comp__photo-ski{
       width: (100% - 45%);
-      background-color: darkorchid;
+      // background-color: darkorchid;
       height: 400px;
       float: right;
       

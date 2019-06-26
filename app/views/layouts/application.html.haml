@@ -3,6 +3,7 @@
   %head
     %meta{content:"text/html; charset=UTF-8", "http-equiv": "Content-Type"}/
     %meta{content:"width=device-width, initial-scale=1.0", name: "viewport"}/
+    %link{:href => "css/font-awesome.min.css", :rel => "stylesheet"}/
     %title Tenlife
     = stylesheet_link_tag    'application', media: 'all'
   .wrapper
@@ -12,6 +13,9 @@
           = link_to "/home/index", class: "gg" do
             Tenlife
         .top__text-box
+          %h2
+            = link_to "https://tenlife123.com/", class: "fi" do
+              Blog
           %h2
             = link_to "/profile/index", class: "fi" do
               Profile
