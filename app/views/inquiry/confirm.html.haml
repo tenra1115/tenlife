@@ -1,0 +1,19 @@
+.newWrap
+  .newTitle
+    %h1 お問い合わせ：確認
+  .newContent
+    = form_for @inquiry, :url => inquiry_thanks_path do |f|
+      .row
+        .col-sm-4 名前
+        .col-sm-8
+          = f.hidden_field :name
+          = @inquiry.name
+        .col-sm-4 メールアドレス
+        .col-sm-8
+          = f.hidden_field :email
+          = @inquiry.email
+        .col-sm-4 お問い合わせ内容
+        .col-sm-8
+          = f.hidden_field :message
+          = simple_format(@inquiry.message)
+      = f.submit '送信する', class: 'btn btn-block btn-success'

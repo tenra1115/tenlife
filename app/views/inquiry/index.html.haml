@@ -1,0 +1,24 @@
+- @page_title = 'お問い合わせ'
+.newWrap
+  .newTitle
+    %h1 お問い合わせ
+  .newContent
+    = form_for @inquiry, :url => inquiry_confirm_path do |f|
+      - if @inquiry.errors.any?
+        .alert.alert-danger{:role => "alert"}
+          %strong 入力内容にエラーがあります
+          %ul
+            - @inquiry.errors.each do |attr, msg|
+              %li= msg
+      .row
+        .col-sm-4
+          名前
+          %span.text-danger （必須）
+        .col-sm-8= f.text_field :name, class: 'form-control mb-2'
+        .col-sm-4
+          メールアドレス
+          %span.text-danger （必須）
+        .col-sm-8= f.text_field :email, class: 'form-control mb-2'
+        .col-sm-4 お問い合わせ内容
+        .col-sm-8= f.text_area :message, class: 'form-control mb-2', rows: '6'
+      = f.submit '確認', class: 'btn btn-block btn-success'
